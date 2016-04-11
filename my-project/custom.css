@@ -189,3 +189,51 @@ h5{
     height:100px;
     background-color: #88dfff;
 }
+/* Media Queries (small)*/
+@media only screen and (min-width: 600px) {
+    .beg h1{ 
+    font-family: 'Satisfy', cursive;
+    text-align: center ;
+    font-size: 75px;
+    font-weight: 400;
+    color: #00bfff;
+    }
+    h2{
+        font-family: 'Poriet One', cursive; 
+        text-align: center;
+        font-size: 15px;
+        color: #0066ff;
+    }
+}
+/* (medium)*/
+@media only screen and (min-width: 900px) {
+    .beg h1{
+        font-family: 'Satisy', cursive;
+        text-align: center;
+        font-size: 120px;
+        font-weight: 400;
+        color: #00bfff;
+    }
+    h2{
+        font-family: 'Poriet One', cursive;
+        text-align: center;
+        font-size: 40px;
+        color: #0066ff;
+    }
+}
+/*(large)*/
+@media only screen and (min-width: 1200px) {
+    .beg h1{
+        font-family: 'Satisy', cursive;
+        text-align: center;
+        font-size: 160px;
+        font-weight: 400;
+        color: #00bfff;
+    }
+    h2{
+        font-family: 'Poriet One', cursive;
+        text-align: center;
+        font-size: 80px;
+        color: #0066ff;
+    }
+}
